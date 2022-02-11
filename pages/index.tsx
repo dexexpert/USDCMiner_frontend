@@ -233,7 +233,7 @@ function UnconnectedDashboard(props: { connectWallet: () => void }) {
     <div className="m-24 mb-0 ml-10 mr-10 sm:ml-16 sm:mr-16 md:ml-20 md:mr-20 lg:ml-24 lg:mr-24 xl:ml-28 xl:mr-28">
       <h2 className="font-bold text-4xl">Dashboard</h2>
       <div className="mt-12 p-10 border border-gray-300 rounded-md">
-        <p>Oh no! Looks like there isn't a wallet connected right now. In order to use USDCMINER, a USDC wallet needs to be connected. Please click the button below in order to connect your wallet and start using our dashboard!</p>
+        <p>Oh no! Looks like there isn&apos;t a wallet connected right now. In order to use USDCMINER, a USDC wallet needs to be connected. Please click the button below in order to connect your wallet and start using our dashboard!</p>
         <button onClick={() => props.connectWallet()} className="transition-all hover:scale-105 pl-8 pr-8 rounded-lg bg-blue-500 text-white font-bold p-3 mt-10 text-sm">Connect Wallet</button>
       </div>
     </div>
